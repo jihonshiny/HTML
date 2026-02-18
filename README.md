@@ -1,4 +1,4 @@
-# 📝 HTML 연습 정리
+#  HTML 연습 정리
 
 > 처음부터 하나하나 직접 연습한 HTML 파일들 정리본
 
@@ -634,7 +634,7 @@ HTML 파일을 처음 만들 때 항상 들어가야 하는 기본 구조
 
 두 파일은 **보이는 결과가 같지만 코드 의미가 다름**
 
-### ❌ div로만 만든 버전 (17_semanticdiv.html)
+###  div로만 만든 버전 (17_semanticdiv.html)
 
 ```html
 <div>헤더</div>
@@ -648,7 +648,7 @@ HTML 파일을 처음 만들 때 항상 들어가야 하는 기본 구조
 <div>footer</div>
 ```
 
-### ✅ 시멘틱 태그로 만든 버전 (17_semantic.html)
+### 시멘틱 태그로 만든 버전 (17_semantic.html)
 
 ```html
 <header>헤더</header>
@@ -681,46 +681,6 @@ HTML 파일을 처음 만들 때 항상 들어가야 하는 기본 구조
 | `<article>` | 독립적인 콘텐츠 (블로그 글, 뉴스 기사 등) |
 | `<aside>` | 사이드바 (부가 정보) |
 | `<footer>` | 페이지 하단 정보 |
-
----
-
-## 문제내서 맞추기 - 종합 복습
-
-앞에서 배운 내용을 직접 문제 풀듯이 작성해본 종합 실습 파일
-
-### 잘 쓴 것들 ✅
-
-```html
-<!-- 새 탭으로 링크 -->
-<a href="https://naver.com" target="_blank">네이버</a>
-
-<!-- 드래그 가능 -->
-<h2 draggable="true">드래그 가능한 제목</h2>
-
-<!-- 숨김 처리 -->
-<p hidden>이 문장은 숨김 처리 됨</p>
-
-<!-- ul, ol, dl 목록 -->
-<ul> ... </ul>
-<ol> ... </ol>
-<dl> ... </dl>
-
-<!-- rowspan으로 세로 셀 합치기 -->
-<td rowspan="3">2학년</td>
-
-<!-- tfoot으로 합계 행 처리 -->
-<tfoot>
-  <tr>
-    <td colspan="1">합계</td>
-    <td>4200</td>
-  </tr>
-</tfoot>
-
-<!-- q 태그에 인라인 스타일 -->
-<q style="color: blue; background-color: yellow; font-size: 30px; text-align: center; display: block;">
-  웹 개발은 재미있다
-</q>
-```
 
 ---
 
