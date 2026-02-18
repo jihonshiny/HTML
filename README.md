@@ -1,23 +1,60 @@
-# Project Title
+# HTML 학습 자료
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+## 1. HTML 기본 개념
+HTML(하이퍼텍스트 마크업 언어)은 웹 페이지의 구조를 정의하는 언어입니다. HTML 문서는 태그로 구성되어 있으며, 브라우저가 이 태그를 해석해 웹 페이지를 표시합니다.
 
-## Introduction
-Provide a brief description of the project and its purpose.
+### 2. HTML 문서 구조
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>문서 제목</title>
+</head>
+<body>
+    <h1>문서의 주제</h1>
+    <p>여기에 내용을 작성합���다.</p>
+</body>
+</html>
+```
 
-## Installation
-Step-by-step instructions on how to install the project.
+### 3. 주요 HTML 태그
+- **`<h1>~<h6>`**: 제목 태그
+- **`<p>`**: 단락 태그
+- **`<a>`**: 링크 태그
+- **`<img>`**: 이미지 삽입 태그
 
-## Usage
-Examples of how to use the project, along with code snippets.
+### 4. 목록
+- 순서 없는 목록: `<ul>`
+- 순서 있는 목록: `<ol>`
 
-## Contributing
-Guidelines for contributing to the project.
+### 5. 테이블
+```html
+<table>
+    <tr>
+        <th>헤더1</th>
+        <th>헤더2</th>
+    </tr>
+    <tr>
+        <td>내용1</td>
+        <td>내용2</td>
+    </tr>
+</table>
+```
 
-## License
-Information about the project's license.
+## 6. 최선의 실천법
+- 의미 있는 태그 사용
+- 접근성 고려
+- 조건에 맞는 이미지 제공
+
+## 7. 학습 로드맵
+1. HTML 기본 개념 이해하기
+2. CSS 배우기
+3. JavaScript 사용해보기
+4. 프로젝트로 실습하기
+
+## 8. 팁
+- 다양한 리소스를 활용하세요: MDN, W3Schools
+- 커뮤니티에 참여하여 질문하세요.
+
+## 9. 결론
+HTML은 웹 개발의 기초입니다. 이러한 자료를 기반으로 계속해서 학습해 나가세요!
